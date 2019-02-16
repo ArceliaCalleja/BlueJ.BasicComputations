@@ -4,15 +4,19 @@
 public class IntegerPrinter {
 
     public String printIntegerAsBinary(int value){
-        return null;
+        String bin = Integer.toBinaryString(value);
+        
+        return bin;
     }
 
     public String printIntegerAsOctal(int value){
-        return null;
+        String octal = Integer.toOctalString(value);
+        return octal;
     }
 
     public String printIntegerAsHexadecimal(int value){
-        return null;
+        String hex = Integer.toHexString(value);
+        return hex;
     }
 
     public static void main(String[] args){

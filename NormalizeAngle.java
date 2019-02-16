@@ -4,11 +4,17 @@
 public class NormalizeAngle {
 
     public Integer normalizeValueUsingModulo(Integer angle){
-        return 0;
+        int normAngle = angle % 360;
+        
+        return normAngle;
     }
 
     public Integer normalizeValueUsingFloorMod(Integer integer){
-        return 0;
+        int a = integer;
+        int b = 360;
+        
+      
+        return Math.floorMod(a,b);
     }
 
     public static void main(String[] args){
